@@ -1,0 +1,24 @@
+{
+  "name": "geovane",
+  "version": "1.0.0",
+  "description": "\"Get trip directions and the current weather at the same time!\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkallgren08/Geovane.git"
+  },
+  "keywords": [
+    "directions",
+    "weather-forecast",
+    "navigation"
+  ],
+  "author": "'Michael Kallgren', 'Keith Kovach', 'Joshua Proctor'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkallgren08/Geovane/issues"
+  },
+  "homepage": "https://github.com/mkallgren08/Geovane#readme"
+}
