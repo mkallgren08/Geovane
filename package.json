@@ -2,8 +2,9 @@
   "name": "geovane",
   "version": "1.0.0",
   "description": "\"Get trip directions and the current weather at the same time!\"",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
