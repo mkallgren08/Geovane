@@ -1,3 +1,7 @@
+var googleMapsClient = require('@google/maps').createClient({
+  key: 'AIzaSyCI-Q45nsEkZDVBrp2I8NB2cTTqK_hhgrg'
+});
+
 //-----------------Global Variables------------------------
 
 var map = "";
@@ -154,6 +158,23 @@ function weatherMapsAPIIcons(response){
         iconArray.push(iconURL)
 }
 
+
+/*
+    googleMaps.directions({
+      origin: "'" + startCity + "," ,
+      destination: 'Parramatta, NSW',
+    }), function(err, response) {
+      if (!err) {
+        console.log(response.json.results);
+      }
+    });
+
+
+
+*/
+
+
+
 //Function for retrieving ajax data from google directions map api based on user input for start and finish locations
 function googleDirectionApiCall () {
 	var queryURLDirections = "https://maps.googleapis.com/maps/api/directions/json?origin=" + startCity + "," + startState+ "&destination=" +
@@ -174,7 +195,7 @@ function googleDirectionApiCall () {
     finishLon = response.routes[0].legs[0].end_location.lng;
     console.log("Finish Lon: "+ finishLon);
 
-    //Calling btoh OpenWeather API calls
+    //Calling both OpenWeather API calls
     weatherMapsAPICall(startLat, startLon);
     weatherMapsAPICall(finishLat, finishLon);
     

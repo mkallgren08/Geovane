@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mkallgren08/Geovane#readme",
   "dependencies": {
+    "@google/maps": "^0.4.3",
     "express": "^4.15.4"
   }
 }
