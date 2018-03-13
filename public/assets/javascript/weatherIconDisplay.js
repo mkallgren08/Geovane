@@ -1,6 +1,6 @@
-var googleMapsClient = require('@google/maps').createClient({
-  key: 'AIzaSyCI-Q45nsEkZDVBrp2I8NB2cTTqK_hhgrg'
-});
+// var googleMapsClient = require('@google/maps').createClient({
+//   key: 'AIzaSyCI-Q45nsEkZDVBrp2I8NB2cTTqK_hhgrg'
+// });
 
 //-----------------Global Variables------------------------
 
